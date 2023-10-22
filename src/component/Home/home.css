@@ -1,0 +1,104 @@
+.home {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.container {
+  width: 1650px;
+  height: 1295px;
+  background-image: url(../image/bg.png);
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 350px;
+  height: 280px;
+  border-radius: 50%;
+}
+.logo p {
+  color: rgb(235, 231, 15);
+  font-family: Montserrat;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.adress {
+  display: flex;
+  text-align: center;
+}
+.adress p {
+  color: rgb(243, 243, 235);
+  font-family: Montserrat;
+  font-size: 15px;
+  padding-top: 35px;
+}
+.adress img {
+  width: 20px 30px;
+  height: 30px;
+  padding-top: 45px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+}
+.registr,
+.in {
+  color: antiquewhite;
+  background-color: rgb(13, 13, 66);
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+
+  font-size: 13px;
+}
+.registr:hover {
+  background-color: rgb(29, 29, 97);
+  color: aquamarine;
+}
+.in:hover {
+  background-color: rgb(29, 29, 97);
+  color: aquamarine;
+}
+/* ===================================================================== */
+.begin {
+  width: 650px;
+  height: 400px;
+  color: rgb(243, 243, 235);
+  font-family: Montserrat;
+  margin-left: 280px;
+  margin-top: 100px;
+}
+.begin h1 {
+    font-size: 45px;
+}
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.lux {
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 45px;
+}
+.button-catalog {
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.catalog p {
+    margin-top: 25px;
+    color: rgb(231, 222, 92);
+    font-size: 25px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import logo from "../image/logo.png";
 import logoadress from "../image/icon-adress.png";
+import {Link} from 'react'
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
           </div>
           <div className="adress">
             <img src={logoadress} alt=""></img>
-            <p>м. Полтава вул. Грабчака, 2</p>
+            <p>м. Полтава вул. Європейська, 25</p>
           </div>
           <div className="button">
             <button className="registr">Реєстрація</button>
@@ -31,7 +32,7 @@ function Home() {
             холодильнику.
           </p>
           <div className='catalog'>
-            <button className='button-catalog'>До каталогу</button>
+            <Link to='/catologe'><button className='button-catalog'>До каталогу</button></Link>
             <p>Безліч найкрутіших виробів</p>
           </div>
         </div>

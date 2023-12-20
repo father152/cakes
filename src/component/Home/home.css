@@ -24,7 +24,8 @@
   color: rgb(235, 231, 15);
   font-family: Montserrat;
   font-size: 30px;
-  padding-top: 10px;
+  padding-top: 115px;
+  text-align: center;
 }
 .adress {
   display: flex;
